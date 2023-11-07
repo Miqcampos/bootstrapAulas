@@ -1,0 +1,13 @@
+/* root salva variáveis */
+/* --variável : dado ; */
+/* chamar var = var(--variável) */
+/* element!important = prioriza o código */
+:root{
+    --branco-azul: #c0b7e9;
+    --preto: #1d1d1d;
+}
+
+#page{
+    background-color: var(--preto)!important;
+    color: var(--branco-azul);
+}
