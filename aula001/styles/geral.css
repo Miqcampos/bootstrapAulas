@@ -3,8 +3,9 @@
 /* chamar var = var(--variável) */
 /* element!important = prioriza o código */
 :root{
-    --branco-azul: #c0b7e9;
-    --preto: #1d1d1d;
+    --branco-azul: #c3f3fcdd;
+    --branco-azul2: #c3f3fc70;
+    --preto: #000000;
 }
 
 #page{
