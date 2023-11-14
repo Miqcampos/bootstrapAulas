@@ -1,0 +1,32 @@
+:root{
+    --marrom: #302727;
+    --vermelho: #ba2d2d;
+    --laranja: #f2511b;
+    --laranjaTransparente: #f2871b6f;
+    --laranjaClaro: #f2861b;
+    --amarelo: #c7c730;
+    --branco: #ffffff;
+}
+
+header, footer{
+    background-color: var(--vermelho);
+}
+
+.nav-link, footer{
+    color: var(--branco)!important;
+}
+
+#bannerSection{
+    height: 650px;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#infoBanner{
+    width: 500px;
+    padding: 2rem;
+    background-color: var(--laranjaTransparente);
+}
+
