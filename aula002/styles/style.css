@@ -30,3 +30,70 @@ header, footer{
     background-color: var(--laranjaTransparente);
 }
 
+#servicosDiv{
+    background-color: var(--marrom);
+    color: var(--branco);
+}
+
+#imgBeneficios{
+    border-radius: 10px;
+}
+
+#cartao1{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-image: url(../images/cartaoUm.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#cartao2{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-image: url(../images/cartaoDois.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#cartao3{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-image: url(../images/cartaoTres.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#tabela{
+    border: #302727;
+    border-radius: 15px ;
+    box-shadow: 8px 8px 8px #3027279a;
+}
+
+th{
+    background-color: var(--vermelho)!important;
+    color: var(--branco)!important;
+}
+
+th:hover{
+    background-color: #800000!important;
+}
+
+th:empty{
+    border: none!important;
+    background-color: transparent!important;
+}
+
+th, td{
+    border: 1px solid black;
+}
+
+#horarios td, #horarios th{
+    height: 50px;
+}
+
+td:hover{
+    background-color: #e97272ac!important;
+}
