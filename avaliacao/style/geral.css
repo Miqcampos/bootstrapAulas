@@ -1,0 +1,28 @@
+:root {
+    --preto: #2A2B2A;
+    --amarelo: #dba204;
+    --amareloTransparente: #dba20488;
+    --branco: #ffffff;
+}
+
+header, footer {
+    background-color: var(--preto);
+}
+
+.nav-link, footer {
+    color: var(--branco)!important;
+}
+
+#bannerSection {
+    height: 700px;
+    background-image: url(../images/banners/bannerHome.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#infoBanner {
+    width: 500px;
+    padding: 2rem;
+    background-color: var(--amareloTransparente);
+}
