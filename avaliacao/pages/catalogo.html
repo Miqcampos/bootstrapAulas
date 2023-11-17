@@ -7,7 +7,7 @@
 
     <link rel="shortcut icon" href="../images/logo/logo.svg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style/geral.css">
+    <link rel="stylesheet" href="../style/style.css">
 
     <title>ForGallery - Catálogo</title>
 </head>
@@ -16,7 +16,7 @@
         <header id="navHeader" class="container-fluid p-0 m-0">
                 <nav class="navbar navbar-expand-lg p-2">
                     <div class="container-fluid">
-                      <a class="navbar-brand" href="../index.html"><img src="../images/logo/logo.svg" style="width: 4rem;" alt=""></a>
+                      <a class="navbar-brand" href="../index.html"><img src="../images/logo/logo.svg" style="width: 3rem;" alt=""></a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
@@ -66,8 +66,8 @@
             </section>
 
             <section id="catalogoSection" class="container-fluid text-center mx-0 my-2 p-0">
-                <h3 class="my-5" style="color: var(--amarelo);">Catálogo de Produtos</h3>
-                <div id="produtosGrupo" class="d-flex justify-content-center gap-5 flex-wrap container-fluid my-4 p-0">
+                <h3 class="my-5" style="color: var(--amarelo);">Conheça nosso Catálogo de Produtos</h3>
+                <div id="produtosGrupo" class="d-flex justify-content-center gap-5 flex-wrap container-fluid my-4 p-2">
  
                     <!-- quadros monocromaticos -->
                     <div class="card" style="width: 18rem;">
@@ -82,97 +82,109 @@
                         </div>
                       </div>
 
-                      <!-- quadros monocromaticos -->
+                    <!-- pinturas a óleo -->
                     <div class="card" style="width: 18rem;">
-                        <img src="../images/catalogo/quadros1.png" class="card-img-top" alt="...">
+                        <img src="../images/catalogo/quadros2.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Quadros monocromáticos</h5>
-                          <p class="card-text">Um quadro monocromático é uma pintura que usa apenas uma cor ou variação de uma cor.</p>
+                          <h5 class="card-title">Pinturas a óleo</h5>
+                          <p class="card-text">É uma das técnicas de pintura mais antigas e ainda é muito popular hoje em dia.</p>
                           <h5 style="color: var(--amarelo);">R$ 100</h5>
-                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#monocromaticoModal">
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#oleoModal">
                             Ver mais
                           </button>
                         </div>
                       </div>
 
-                      <!-- quadros monocromaticos -->
+                    <!-- pinturas aquarela -->
                     <div class="card" style="width: 18rem;">
-                        <img src="../images/catalogo/quadros1.png" class="card-img-top" alt="...">
+                        <img src="../images/catalogo/quadros3.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Quadros monocromáticos</h5>
-                          <p class="card-text">Um quadro monocromático é uma pintura que usa apenas uma cor ou variação de uma cor.</p>
+                          <h5 class="card-title">Pinturas aquarela</h5>
+                          <p class="card-text">É uma técnica de pintura que usa pigmentos misturados com água. Famosa entre profissionais.</p>
                           <h5 style="color: var(--amarelo);">R$ 100</h5>
-                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#monocromaticoModal">
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aquarelaModal">
                             Ver mais
                           </button>
                         </div>
-                      </div>
+                    </div>
 
-                      <!-- quadros monocromaticos -->
+                    <!-- pinturas gouache -->
                     <div class="card" style="width: 18rem;">
-                        <img src="../images/catalogo/quadros1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Quadros monocromáticos</h5>
-                          <p class="card-text">Um quadro monocromático é uma pintura que usa apenas uma cor ou variação de uma cor.</p>
-                          <h5 style="color: var(--amarelo);">R$ 100</h5>
-                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#monocromaticoModal">
-                            Ver mais
-                          </button>
-                        </div>
+                      <img src="../images/catalogo/quadros4.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pinturas gouache</h5>
+                        <p class="card-text">É uma técnica de pintura que usa pigmentos misturados com água e goma arábica.</p>
+                        <h5 style="color: var(--amarelo);">R$ 100</h5>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#gouacheModal">
+                          Ver mais
+                        </button>
                       </div>
+                  </div>
 
-                      <!-- quadros monocromaticos -->
+                    <!-- pinturas em acrilico -->
                     <div class="card" style="width: 18rem;">
-                        <img src="../images/catalogo/quadros1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Quadros monocromáticos</h5>
-                          <p class="card-text">Um quadro monocromático é uma pintura que usa apenas uma cor ou variação de uma cor.</p>
-                          <h5 style="color: var(--amarelo);">R$ 100</h5>
-                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#monocromaticoModal">
-                            Ver mais
-                          </button>
-                        </div>
+                      <img src="../images/catalogo/quadros5.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Quadros em acrílico</h5>
+                        <p class="card-text">É uma técnica de pintura que usa tintas acrílicas, que são feitas de resinas acrílicas.</p>
+                        <h5 style="color: var(--amarelo);">R$ 100</h5>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#acrilicoModal">
+                          Ver mais
+                        </button>
                       </div>
+                  </div>
 
-                      <!-- quadros monocromaticos -->
+                    <!-- pinturas digitais -->
                     <div class="card" style="width: 18rem;">
-                        <img src="../images/catalogo/quadros1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Quadros monocromáticos</h5>
-                          <p class="card-text">Um quadro monocromático é uma pintura que usa apenas uma cor ou variação de uma cor.</p>
-                          <h5 style="color: var(--amarelo);">R$ 100</h5>
-                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#monocromaticoModal">
-                            Ver mais
-                          </button>
-                        </div>
+                      <img src="../images/catalogo/quadros6.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pintura digital</h5>
+                        <p class="card-text">É uma técnica de pintura que usa um computador e um programa de software de pintura.</p>
+                        <h5 style="color: var(--amarelo);">R$ 100</h5>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#digitalModal">
+                          Ver mais
+                        </button>
                       </div>
+                  </div>
 
-                      <!-- quadros monocromaticos -->
+                    <!-- pinturas encáustica  -->
                     <div class="card" style="width: 18rem;">
-                        <img src="../images/catalogo/quadros1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Quadros monocromáticos</h5>
-                          <p class="card-text">Um quadro monocromático é uma pintura que usa apenas uma cor ou variação de uma cor.</p>
-                          <h5 style="color: var(--amarelo);">R$ 100</h5>
-                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#monocromaticoModal">
-                            Ver mais
-                          </button>
-                        </div>
+                      <img src="../images/catalogo/quadros7.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pintura encáustica</h5>
+                        <p class="card-text">É uma técnica de pintura antiga que foi usada por artistas gregos e romanos antigos.</p>
+                        <h5 style="color: var(--amarelo);">R$ 100</h5>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#encausticaModal">
+                          Ver mais
+                        </button>
                       </div>
+                  </div>
 
-                      <!-- quadros monocromaticos -->
-                    <div class="card" style="width: 18rem;">
-                        <img src="../images/catalogo/quadros1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Quadros monocromáticos</h5>
-                          <p class="card-text">Um quadro monocromático é uma pintura que usa apenas uma cor ou variação de uma cor.</p>
-                          <h5 style="color: var(--amarelo);">R$ 100</h5>
-                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#monocromaticoModal">
-                            Ver mais
-                          </button>
-                        </div>
-                      </div>
+                  <!-- quadros em esmalte -->
+                  <div class="card" style="width: 18rem;">
+                    <img src="../images/catalogo/quadros8.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Pinturas esmalte</h5>
+                      <p class="card-text">É uma técnica de pintura que usa pigmentos misturados com óleo e resina.</p>
+                      <h5 style="color: var(--amarelo);">R$ 100</h5>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#esmalteModal">
+                        Ver mais
+                      </button>
+                    </div>
+                  </div>
 
+                  <!-- quadros a têmpera  -->
+                  <div class="card" style="width: 18rem;">
+                    <img src="../images/catalogo/quadros9.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Pinturas à têmpera </h5>
+                      <p class="card-text">É uma técnica de pintura que usa pigmentos misturados com ovo ou goma arábica.</p>
+                      <h5 style="color: var(--amarelo);">R$ 100</h5>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#temperaModal">
+                        Ver mais
+                      </button>
+                    </div>
+                  </div>
                 </div>
             </section>
         </main>
@@ -191,7 +203,7 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <img class="w-100" src="../images/catalogo/quadros1.png" alt="coleiraParaCachorro">
+              <img class="w-100" src="../images/catalogo/quadros1.png" alt="">
               <h3 style="color: var(--amarelo);">R$ 100</h3>
             </div>
             <div class="modal-footer">
@@ -201,6 +213,166 @@
           </div>
         </div>
       </div>
+
+    <!-- oleoModal -->
+    <div class="modal fade" id="oleoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" style="color: var(--amarelo);" id="exampleModalLabel">Pinturas a óleo</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img class="w-100" src="../images/catalogo/quadros2.png" alt="">
+            <h3 style="color: var(--amarelo);">R$ 100</h3>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- aquarelaModal -->
+    <div class="modal fade" id="aquarelaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" style="color: var(--amarelo);" id="exampleModalLabel">Pinturas aquarela</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img class="w-100" src="../images/catalogo/quadros3.png" alt="">
+            <h3 style="color: var(--amarelo);">R$ 100</h3>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- gouacheModal -->
+    <div class="modal fade" id="gouacheModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" style="color: var(--amarelo);" id="exampleModalLabel">Pinturas gouache</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img class="w-100" src="../images/catalogo/quadros4.png" alt="">
+            <h3 style="color: var(--amarelo);">R$ 100</h3>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- acrilicoModal -->
+    <div class="modal fade" id="acrilicoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" style="color: var(--amarelo);" id="exampleModalLabel">Quadros em acrílico</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img class="w-100" src="../images/catalogo/quadros5.png" alt="">
+            <h3 style="color: var(--amarelo);">R$ 100</h3>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- digitalModal -->
+    <div class="modal fade" id="digitalModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" style="color: var(--amarelo);" id="exampleModalLabel">Pintura digital</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img class="w-100" src="../images/catalogo/quadros6.png" alt="">
+            <h3 style="color: var(--amarelo);">R$ 100</h3>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- encausticaModal -->
+    <div class="modal fade" id="encausticaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" style="color: var(--amarelo);" id="exampleModalLabel">Pintura eucástica</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img class="w-100" src="../images/catalogo/quadros7.png" alt="">
+            <h3 style="color: var(--amarelo);">R$ 100</h3>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- esmalteModal -->
+    <div class="modal fade" id="esmalteModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" style="color: var(--amarelo);" id="exampleModalLabel">Pinturas esmalte</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img class="w-100" src="../images/catalogo/quadros8.png" alt="">
+            <h3 style="color: var(--amarelo);">R$ 100</h3>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- temperaModal -->
+    <div class="modal fade" id="temperaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" style="color: var(--amarelo);" id="exampleModalLabel">Pinturas à têmpera</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img class="w-100" src="../images/catalogo/quadros9.png" alt="">
+            <h3 style="color: var(--amarelo);">R$ 100</h3>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>

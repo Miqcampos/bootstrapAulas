@@ -5,6 +5,8 @@
     --branco: #ffffff;
 }
 
+/* geral */
+
 header, footer {
     background-color: var(--preto);
 }
@@ -12,6 +14,8 @@ header, footer {
 .nav-link, footer {
     color: var(--branco)!important;
 }
+
+/* index */
 
 #bannerSection {
     height: 700px;
@@ -25,4 +29,27 @@ header, footer {
     width: 500px;
     padding: 2rem;
     background-color: var(--amareloTransparente);
+}
+
+#imgObras {
+    box-shadow: 6px 6px 6px var(--preto);
+}
+
+/* catálogo */
+
+.card button {
+    background-color: var(--preto);
+    color: var(--amarelo);
+    border: none;
+
+}
+
+.card button:hover {
+    background-color: var(--amarelo);
+    color: var(--preto);
+}
+
+.card button:active {
+    background-color: var(--branco)!important;
+    color: var(--amarelo)!important;
 }
