@@ -37,19 +37,95 @@ header, footer {
 
 /* catálogo */
 
-.card button {
+#bannerCatalogo {
+    height: 700px;
+    background-image: url(../images/banners/bannerCatalogo.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#infoBannerCatalogo {
+    width: 500px;
+    padding: 2rem;
+    background-color: var(--amareloTransparente);
+}
+
+.card button, #form button {
     background-color: var(--preto);
     color: var(--amarelo);
     border: none;
-
 }
 
-.card button:hover {
+.card button:hover, #form button:hover {
     background-color: var(--amarelo);
     color: var(--preto);
+    transition: 0.5s;
 }
 
-.card button:active {
+.card button:active, #form button:active {
     background-color: var(--branco)!important;
     color: var(--amarelo)!important;
+}
+
+/* sobreNos */
+
+#tabela{
+    border: #302727;
+    border-radius: 15px ;
+    box-shadow: 8px 8px 8px #3027279a;
+}
+
+th{
+    background-color: var(--preto)!important;
+    color: var(--branco)!important;
+}
+
+th:hover{
+    background-color: var(--amarelo)!important;
+    transition: 0.5s;
+}
+
+th:empty{
+    border: none!important;
+    background-color: transparent!important;
+}
+
+th, td{
+    border: 1px solid black;
+}
+
+#horarios td, #horarios th{
+    height: 50px;
+}
+
+td:hover{
+    background-color: #dba20499!important;
+    transition: 0.5s;
+}
+
+#formulario {
+    height: 700px;
+    background-image: url(../images/banners/bannerForm.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#formAlinhamento input{
+    width: 400px;
+    background-color: var(--branco);
+}
+
+#formAlinhamento {
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 500px;
+    background-color: #2a2b2aab;
+}
+
+#form button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
 }
